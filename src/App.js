@@ -18,7 +18,7 @@ function App() {
   const [expenseLabel, setExpenseLabel] = useState('');  // Description for a new expense
   const [participants, setParticipants] = useState([{ address: '', amountPaid: 0, amountOwed: 0 }]);  // People involved in a new expense
   const [showAddExpense, setShowAddExpense] = useState(false);  // Whether to show the "Add Expense" form
-  const contractAddress = "YOUR_CONTRACT_ADDRESS_HERE"; // Paste the address recieved from Remix IDE here
+  const contractAddress = "0xb5FE3bFC09686473d617178187B031eD604c000f"; // Paste the address recieved from Remix IDE here
 
   // --- RUNS WHEN THE PAGE FIRST LOADS ---
   // This connects to the user's Ethereum wallet (like MetaMask)
